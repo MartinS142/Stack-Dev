@@ -1,0 +1,25 @@
+.row {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+button {
+  font-size: 14px;
+  background-color: white;
+  appearance: none;
+
+}
+
+
+.startTask {
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.stopTask {
+  cursor: pointer;
+  margin-left: 14px;
+}

@@ -1,0 +1,10 @@
+.row {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+}
+
+.col{
+  padding: 10px;
+}

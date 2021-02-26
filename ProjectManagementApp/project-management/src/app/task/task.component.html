@@ -1,0 +1,16 @@
+<h3>Tasks</h3>
+<input [(ngModel)]="newTask">
+<button (click)="saveTask()">Save</button>
+<div *ngFor="let task of tasks">
+  <div class="row">
+    <h4>{{task.name}}
+      <button class = "startTask" (click)="startTask(task)">Start</button>
+      <button class = "stopTask" (click)="stopTask(task)">Stop</button>
+  	</h4>
+  	<h4>Total Time: {{ task.totalTime }} mins</h4>
+  </div>
+</div>
+
+
+
+
